@@ -5,7 +5,7 @@ The implementation follows technical advice provided by Piyush Agram (formerly a
 
 To process a bistatic interfeorgram run, create a text file called **tandemxApp.txt** with the following
 
-'''
+```
 alks 4
 
 rlks 4
@@ -21,5 +21,5 @@ mask no
 dem /Volumes/T7_Shield/sierra_negra/tandemx12m.dem
 
 unwm icu
-'''
+```
 and then run tandemxApp.csh tandemxApp.txt unpack geocode
