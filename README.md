@@ -1,9 +1,9 @@
 
-TanDEM-X bistatic interferogram processor (April 2017) for the NASA/Caltech JPL ISCE InSAR sofwtare. The packages have to be installed in the isce2-2.6.4/contrib/stack/stripmapStack folder.
+TanDEM-X bistatic interferogram processor (April 2017) for the NASA/Caltech JPL ISCE InSAR sofwtare. The files must be installed in the isce2-2.6.4/contrib/stack/stripmapStack folder.
 
 The implementation follows technical advice provided by Piyush Agram (formerly at JPL). 
 
-To process a bistatic interfeorgram run, create a text file called **tandemxApp.txt** with the following. Change the DEM to your prefered file
+To process a bistatic interfeorgram run, create a text file called **tandemxApp.txt** with the following. 
 
 ```
 alks 4
@@ -16,7 +16,7 @@ dem /Volumes/T7_Shield/sierra_negra/tandemx12m.dem
 unwm icu
 
 ```
-and then run it with
+Change the DEM to your prefered file and then run it with
 
 ```
 tandemxApp.csh tandemxApp.txt unpack geocode
