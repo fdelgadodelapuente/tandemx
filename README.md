@@ -3,7 +3,7 @@ TanDEM-X bistatic interferogram processor (April 2017) for the NASA/Caltech JPL 
 
 The implementation follows technical advice provided by Piyush Agram (formerly at JPL). 
 
-To process a bistatic interfeorgram run, create a text file called **tandemxApp.txt** with the following. 
+To process a bistatic interfeorgram run, create a text file called `tandemxApp.txt` with the following. 
 
 ```
 alks 4
