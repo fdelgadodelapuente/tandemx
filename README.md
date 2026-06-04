@@ -16,7 +16,7 @@ dem /Volumes/T7_Shield/sierra_negra/tandemx12m.dem
 unwm icu
 
 ```
-**20191025** is the name of the CoSSC. Change the DEM path to your prefered file and then run the software with
+`20191025` is the name of the CoSSC directory that is usually distributed as a file that starts with `dims`. Change the DEM path to your prefered file and then run the software with
 
 ```
 tandemxApp.csh tandemxApp.txt unpack geocode
