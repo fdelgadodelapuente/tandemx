@@ -26,7 +26,7 @@ The CoSSC processing is only partially implemented in the software. ISCE can pro
 
 <img width="534" height="435" alt="filt_bistat_masked.4alks_4rlks_hgt.unw.geo.png" src="filt_bistat_masked.4alks_4rlks_hgt.unw.geo.png" />
 
-CoSSC interferogram spaning the 2018 eruption of Sierra Negra caldera. The reference phase is from the 0.4 arcsec TanDEM-X DEM (Galetto et al., 2024).
+CoSSC interferogram spaning the 2018 eruption of Sierra Negra caldera. The reference phase is from the 0.4 arcsec TanDEM-X DEM (Galetto et al., 2024). The intererogram shows topographic changes due to multiple lava flows and a propagating horizontal sill.   
 
 If you use this software, please cite the following papers
 
