@@ -24,6 +24,10 @@ tandemxApp.csh tandemxApp.txt unpack geocode
 
 The CoSSC processing is only partially implemented in the software. ISCE can process a bistatic interferogram up to the unwrapping step, but it does not have a module to accurately reconstruct the topography from the phase in slant range. Also, the bistatic geometry does not take into account in the range-Doppler equations for the geocoding. Neglecting these corrections is not very important if your topographic change is less than $\sim$50 m, but can produce very obvious errors in the elevation and the geocoding if you have large topographic changes ($>$ 150 m).
 
+
+<img width="534" height="435" alt="filt_bistat_masked.4alks_4rlks_hgt.unw.geo.png" src="filt_bistat_masked.4alks_4rlks_hgt.unw.geo.png" />
+
+
 If you use this software, please cite the following papers
 
 [Delgado, F., Kubanek, J., Anderson, K., Lundgren, P., Pritchard, M., 2019. Physicochemical models of rhyolitic eruptions constrained with InSAR and DEM data: a case study of the 2011-2012 Cordón Caulle eruption. Earth and Planetary Science Letters, 524, 115736, doi:10.1016/j.epsl.2019.115736](https://www.sciencedirect.com/science/article/abs/pii/S0012821X19304285)
