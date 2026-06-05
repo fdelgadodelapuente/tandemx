@@ -12,7 +12,6 @@ bbox -0.92 -0.64 -91.35 -91.0
 mask no
 dem /Volumes/T7_Shield/sierra_negra/tandemx12m.dem
 unwm icu
-
 ```
 `20191025` is the name of the CoSSC directory that is usually distributed as a file that starts with `dims`. Change the DEM path to your prefered file and then run the software with
 
